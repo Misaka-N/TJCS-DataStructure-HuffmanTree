@@ -29,7 +29,6 @@ import {ArrowLeft} from '@element-plus/icons-vue'
 import {HuffmanTree} from '@/assets/js/huffman_code'
 import {onMounted, ref} from "vue";
 import * as d3 from "d3"
-import '@/assets/js/d3_tools'
 
 
 const props = defineProps(['keywords', 'ifShow'])
